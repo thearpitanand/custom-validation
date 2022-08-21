@@ -1,0 +1,102 @@
+export const validationData = {
+  email: {
+    label: "Email ID",
+    show: "on",
+    type: "email",
+  },
+  first_name: {
+    label: "First Name",
+    show: "on",
+    type: "text",
+  },
+  last_name: {
+    label: "Last Name",
+    show: "off",
+    type: "text",
+    required: "off",
+  },
+  birth_year: {
+    label: "Birth Year",
+    show: "off",
+    type: "date",
+    required: "off",
+  },
+  job_title: {
+    label: "Job Title",
+    show: "off",
+    type: "text",
+    required: "off",
+  },
+  tell_us_about_yourself: {
+    label: "Message",
+    show: "on",
+    type: "textarea",
+    required: "off",
+  },
+  linkedin: {
+    label: "Linkedin URL",
+    show: "off",
+    type: "url",
+    required: "off",
+  },
+  twitter: {
+    label: "Twitter URL",
+    show: "on",
+    type: "url",
+    required: "off",
+  },
+  phone_number: {
+    label: "Phone Number",
+    show: "off",
+    type: "tel",
+    required: "off",
+  },
+  company_name: {
+    label: "Company Name",
+    show: "off",
+    type: "text",
+    required: "off",
+  },
+  company_size: {
+    label: "Company Size",
+    show: "off",
+    type: "dropdown",
+    required: "off",
+  },
+  industry: {
+    label: "Industry",
+    show: "off",
+    type: "dropdown",
+    required: "off",
+  },
+  website_url: {
+    label: "Website URL",
+    show: "off",
+    type: "url",
+    required: "off",
+  },
+  street_address: {
+    label: "Street Address",
+    show: "off",
+    type: "textarea",
+    required: "off",
+  },
+  city: {
+    label: "City",
+    show: "off",
+    type: "text",
+    required: "off",
+  },
+  country: {
+    label: "Country / Region",
+    show: "off",
+    type: "text",
+    required: "off",
+  },
+  zip_postal_code: {
+    label: "ZIP / Postal Code",
+    show: "off",
+    type: "num",
+    required: "off",
+  },
+};

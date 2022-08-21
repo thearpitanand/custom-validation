@@ -1,0 +1,8 @@
+{
+  "name": "validation",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arpit Anand <arpitssanand@gmail.com>",
+  "license": "MIT"
+}
